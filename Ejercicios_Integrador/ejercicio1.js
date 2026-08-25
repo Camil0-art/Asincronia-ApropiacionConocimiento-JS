@@ -1,3 +1,4 @@
+
 /* Ejercicio integrador 1:
 Simular un proceso de “consulta de usuario”, que requiere:
 1. “Buscar usuario” (promesa de 1 segundo)
