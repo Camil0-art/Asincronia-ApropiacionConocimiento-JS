@@ -14,7 +14,7 @@ function tomarDatos(callback) {
         callback();
     }, 2000);
 }
-// Creaccion de la funcion con el callback el cual imprime "Tomando datos..." 
+// Creaccion de la funcion con el callback el cual imprime "Tomando datos" 
 // y luego de 2 segundos imprime "Datos tomados" y llama al callback.
 
 
