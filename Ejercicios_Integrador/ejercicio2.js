@@ -61,13 +61,13 @@ Se requiere analizar los siguientes puntos:
 • Reconocer cuándo usar callbacks, promesas o async/await para problemas reales. */
 
 
-// Datos de entrada //
+ // Datos de entrada //
 const ordenes = [
   { id: 1, cliente: "Ana", monto: 120000 },
   { id: 2, cliente: "Luis", monto: 80000 },
   { id: 3, cliente: "María", monto: 150000 }
 ];
-
+/*
 
 const orden = { id: 1, cliente: "Ana", monto: 120000 };
 
@@ -106,8 +106,10 @@ verificar(orden, (o1) => {
     registrar(o2, (o3) => {
       notificar(o3, (o4) => {
         console.log(`Orden ${o4.id} completada con Callbacks.`);
-        console.timeEnd("Tiempo Callback"); // Muestra ~5000 ms
+        console.timeEnd("Tiempo Callback"); 
       });
     });
   });
-});
+}); */
+
+
