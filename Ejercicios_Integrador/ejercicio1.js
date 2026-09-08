@@ -48,7 +48,7 @@ buscarUsuario(() => {
 
 // SEGUNDA VERSION PROMESAS //
 
-function buscarUsuario() {
+/* function buscarUsuario() {
     return new Promise((resolve) => {
     console.log("Buscando usuario...");
     setTimeout(() => {
@@ -88,4 +88,10 @@ return generarReporte();
 })
 .then(() => {
     console.log("==== Fin del programa con promesas ===");
-});
+}); */
+
+// TERCERA VERSION ASYNC AWAIT //
+
+
+
+
